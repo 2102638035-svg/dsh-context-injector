@@ -1,0 +1,46 @@
+{
+  "name": "dsh-context-injector",
+  "version": "1.0.2",
+  "description": "DeepSeek Harness (DSH) preset plugin that injects a prepared conversation history into new sessions as a single DSH-valid user message.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "history.example.txt",
+    "tools/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis",
+    "cordis-plugin",
+    "agent-preset",
+    "context-injection",
+    "session"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "yanhuoyijiu",
+  "contributors": [
+    {
+      "name": "小猫之神",
+      "url": "https://github.com/2102638035-svg"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2102638035-svg/dsh-context-injector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2102638035-svg/dsh-context-injector/issues"
+  },
+  "homepage": "https://github.com/2102638035-svg/dsh-context-injector#readme"
+}
